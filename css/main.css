@@ -68,6 +68,7 @@ a {
 
 .primary-nav-bar {
     display: flex;
+    align-items: flex-end;
     margin-left: 0;
 }
 
@@ -76,6 +77,69 @@ a {
     padding: 0 20px;
 }
 
-.primary-nav-bar__item:hover {
-    border-bottom: 2px solid red;
+.primary-nav-bar__item a:hover {
+    border-bottom: 1px solid var(--black);
+}
+
+.footer-nav-bar {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-nav-bar__item {
+    list-style-type: none;
+    margin: 0;
+    line-height: 22px;
+}
+
+.footer-nav-bar__item a:hover {
+    border-bottom: 1px solid var(--black);
+}
+
+.footer-nav__title {
+    margin: 10px 0px 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--black);
+    width: 200px;
+}
+
+.circular-button {
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px
+}
+
+.circular-button:hover {
+    background-color: var(--black);
+}
+
+.social-icon {
+    padding: 15px;
+}
+.social-icon:hover {
+    color: white;
+}
+
+.large-circular-button {
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    text-align: center;
+    line-height: 115px
+}
+
+.large-circular-button:hover {
+    background-color: var(--black);
+}
+
+.top-top {
+    padding: 100px;
+}
+
+.to-top:hover {
+    color: white;
 }
