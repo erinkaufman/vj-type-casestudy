@@ -75,3 +75,7 @@ a {
     list-style-type: none;
     padding: 0 20px;
 }
+
+.primary-nav-bar__item:hover {
+    border-bottom: 2px solid red;
+}
