@@ -251,3 +251,35 @@ input {
     font-size: 11pt;
     line-height: 1.5em;
 }
+
+.button-title a {
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 0 auto;
+    background-color: var(--black);
+    border: 1px solid var(--black);
+    width: 185px;
+    height: 40px;
+}
+
+.button-title a:hover {
+    color: var(--black);
+    background: none;
+}
+
+.footer-page__nav-bar {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 0;
+}
+
+.footer-page__nav-bar__item {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.footer-page__nav-bar__item a:hover {
+    border-bottom: 1px solid var(--black);
+}
