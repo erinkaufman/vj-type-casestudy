@@ -233,3 +233,21 @@ input {
     border-bottom: 1px solid var(--black);
     max-width: 225px;
 }
+
+.support-module {
+    max-width: 700px;
+}
+
+.support-title {
+    padding-bottom: 10px;
+}
+
+.support-body__item {
+    font-size: 11pt;
+    line-height: .75em;
+}
+
+.support-body__small {
+    font-size: 11pt;
+    line-height: 1.5em;
+}
