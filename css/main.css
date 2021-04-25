@@ -94,7 +94,25 @@ a {
     padding: 0 20px;
 }
 
-.primary-nav-bar__item a:hover {
+.special-underline:hover {
+    border-bottom: 1px solid var(--black);
+}
+.special-underline-current:hover {
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.user-nav-bar {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 0;
+}
+
+.user-nav-bar__item {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.special-underline:hover {
     border-bottom: 1px solid var(--black);
 }
 
