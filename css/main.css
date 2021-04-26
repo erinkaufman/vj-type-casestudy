@@ -113,6 +113,12 @@ sup {
     margin: 0 auto;
 }
 
+.social-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
 .primary-nav-bar {
     display: flex;
     align-items: flex-end;
