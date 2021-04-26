@@ -254,8 +254,8 @@ input {
 .subscribe-button-input {
     flex-grow: 1;
     border: none;
-    background-color: none;
-    margin: none;
+    background-color: var(--blush);
+    margin: 0;
     padding: 0 20px;
     height: 38px;
     font-size: 9pt;
