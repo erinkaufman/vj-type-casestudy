@@ -49,6 +49,10 @@ h2, h3, h4, h5, h6 {
     letter-spacing: 3.6px;
 }
 
+.hidden-type {
+    color: var(--blush);
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -102,9 +106,9 @@ sup {
 }
 
 .typeface-module img {
-    max-width: 550px;
+    max-width: 525px;
     margin: 0;
-    padding-left: 50px;
+    padding-left: 65px;
 }
 
 .typeface-module__title {
