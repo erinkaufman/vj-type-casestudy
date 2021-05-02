@@ -27,7 +27,7 @@ body {
 h2, h3, h4, h5, h6 {
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
-    font-size: 9pt;
+    font-size: 9.5pt;
     font-weight: normal;
     letter-spacing: 3.6px;
 }
@@ -74,7 +74,7 @@ img {
 a {
     color: var(--black);
     text-decoration: none;
-    font-size: 9pt;
+    font-size: 9.5pt;
     letter-spacing: 3.6px;
     text-transform: uppercase;
 }
@@ -95,7 +95,11 @@ sup {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--blush);
     padding: 25px 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
 }
 
 .typeface-module {
@@ -106,9 +110,8 @@ sup {
 }
 
 .typeface-module img {
-    max-width: 525px;
+    max-height: 225px;
     margin: 0;
-    padding-left: 65px;
 }
 
 .typeface-module__title {
@@ -187,7 +190,7 @@ sup {
 }
 
 .footer-nav__title {
-    margin: 10px 0px 0px;
+    margin: 0px 0px 10px 0px;
     padding-bottom: 5px;
     border-bottom: 1px solid var(--black);
     width: 200px;
@@ -249,7 +252,7 @@ input {
     border: none;
     flex-grow: 2;
     width: 300px;
-    line-height: 38px;
+    line-height: 37px;
     color: var(--light-gray);
     font-family: var(--font-sans-serif);
     font-size: 8pt;
@@ -263,7 +266,7 @@ input {
     background-color: var(--blush);
     margin: 0;
     padding: 0 20px;
-    height: 38px;
+    height: 37px;
     font-size: 9pt;
     letter-spacing: 3px;
 }
@@ -274,12 +277,17 @@ input {
 }
 
 .footer-section__title {
-    margin-bottom: 5px;
+    margin: 0;
+}
+
+.footer-section__title-social {
+    margin: 50px 0px 25px 0px;
 }
 
 .copyright-credits {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
 .credit-link:hover {
@@ -344,11 +352,16 @@ input {
 .footer-columns {
     display: flex;
     justify-content: space-between;
+    margin-top: 75px;
+}
+
+.connections {
+    flex-basis: 50%;
 }
 
 .home-page {
     background-color: var(--blush);
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
 }
 
@@ -356,4 +369,11 @@ input {
     width: 100%;
     height: 1px;
     background-color: var(--black);
+}
+
+.divider-line_header {
+    width: 100%;
+    height: 1px;
+    background-color: var(--black);
+    position: fixed;
 }
